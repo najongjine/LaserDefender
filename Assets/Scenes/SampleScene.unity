@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 231827188}
   - component: {fileID: 231827187}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1232,6 +1232,7 @@ GameObject:
   - component: {fileID: 1488659918}
   - component: {fileID: 1488659917}
   - component: {fileID: 1488659916}
+  - component: {fileID: 1488659920}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1320,6 +1321,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1488659920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488659915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa9998d7ba49c24fa8a9f77e048f553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 1499890883}
+  playerHealth: {fileID: 2747965654493960319}
+  scoreText: {fileID: 231827187}
 --- !u!1 &1499890881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,3 +1542,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9475469a72d56d14085d325c5f2f47a6, type: 3}
+--- !u!114 &2747965654493960319 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4493385941417461962, guid: 9475469a72d56d14085d325c5f2f47a6, type: 3}
+  m_PrefabInstance: {fileID: 2747965654493960318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410a5a0443e8ed443a7413e66f76cf53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
